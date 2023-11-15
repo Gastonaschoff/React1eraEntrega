@@ -1,15 +1,11 @@
+import "./App.css";
+import ButtonComponent from "/components/ButtonComponent/buttonComponent";
 
-import './App.css'
-import NavBar.jsx from './components/NavBar/NavBar'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+function App(){
   return (
-    <div className= "App">
-      <NavBar /> 
+    <div>
+      <ButtonComponent />
     </div>
-  )
+  );
 }
-
-export default App
+export default App;
